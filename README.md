@@ -1,25 +1,14 @@
 ## vue-ss-ui
 [![npm version](https://badge.fury.io/js/vue-ss-ui.svg)](https://badge.fury.io/js/vue-ss-ui)
 
-## Project setup
+## QuickStart
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+yarn add vue-ss-ui
 ```
 
-### Compiles and minifies for production
+##usage
 ```
-yarn build
+import SSUi from 'vue-ss-ui'
+import 'vue-ss-ui/dist/vue-ss-ui.css'
+Vue.use(SSUi)
 ```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
